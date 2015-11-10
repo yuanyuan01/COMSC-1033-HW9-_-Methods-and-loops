@@ -1,18 +1,40 @@
 # COMSC-1033-HW9-_-Methods-and-loops
-## Intriduction
-```
-We are going to rework the addition game using methods and for loops.
 
 ```
+We are going to rework the addition game using methods and for loops.
+```
+## Intriduction
+
+```
+A for loop has a concise syntax for writing loops
+The for loop statement starts with the keyword for, followed by a pair of parentheses enclosing the control structure of the loop.
+This stucture consists of inittial-action, loop- continuation-condition, and action- after - each - iteration.
+The inittial-action often initializes a control variable;
+The loop- continuation-condition usually increments or decrements the control variable;
+The action- after - each - iteration test whether the control variable has termination value.
+
+
+```
+
 ## Outline
 ```
-Main 
+Main() 
 int hardness = 10;
 int score = 0;
+int roundCount=4;
+
+    for(int counter = 0; counter < roundCount; counter++)
+    {
+    //Do something
+    }
+    print the results
 ```
+
 ## References and Literature
 ```
+
 ```
+
 ## Code
 ```
 import java.util.Scanner;
@@ -49,6 +71,7 @@ public class HomeWork_9 {
 }
 
 ```
+
 ## Console output
 ```
 Inside the addition game method.
@@ -61,9 +84,11 @@ The variable hardness is :5
 Everything completed.
 
 ```
+
 ## Command prompt
 ```
 ```
+
 ## Summary
 ```
 ```
