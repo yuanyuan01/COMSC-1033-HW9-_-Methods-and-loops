@@ -2,9 +2,13 @@
 ## Intriduction
 ```
 We are going to rework the addition game using methods and for loops.
+
 ```
 ## Outline
 ```
+Main 
+int hardness = 10;
+int score = 0;
 ```
 ## References and Literature
 ```
