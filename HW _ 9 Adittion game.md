@@ -6,12 +6,14 @@ We are going to rework the addition game using methods and for loops.
 ## Intriduction
 
 ```
-A for loop has a concise syntax for writing loops
-The for loop statement starts with the keyword for, followed by a pair of parentheses enclosing the control structure of the loop.
-This stucture consists of inittial-action, loop- continuation-condition, and action- after - each - iteration.
-The inittial-action often initializes a control variable;
-The loop- continuation-condition usually increments or decrements the control variable;
-The action- after - each - iteration test whether the control variable has termination value.
+$ A for loop has a concise syntax for writing loops
+$ The for loop statement starts with the keyword for,
+  followed by a pair of parentheses enclosing the control structure of the loop.
+$ This stucture consists of inittial-action, 
+  loop- continuation-condition, and action- after - each - iteration.
+$ The inittial-action often initializes a control variable;
+$ The loop- continuation-condition usually increments or decrements the control variable;
+$ The action- after - each - iteration test whether the control variable has termination value.
 
 
 ```
@@ -51,7 +53,7 @@ public class HomeWork_9 {
 					System.out.println("Inside the addition game method.");
 					int hardness = 5;
 					int score = 0;
-					 int roundCount = 2;
+					 int roundCount = 4;
 					 boolean isAnswerCorrect;
 					 for(int counter = 0; counter < roundCount; counter = counter + 1){
 						 System.out.println("Inside for loop: " + counter );
@@ -81,7 +83,14 @@ The variable hardness is :5
 Inside for loop: 1
 Inside check answer method
 The variable hardness is :5
+Inside for loop: 2
+Inside check answer method
+The variable hardness is :5
+Inside for loop: 3
+Inside check answer method
+The variable hardness is :5
 Everything completed.
+
 
 ```
 
