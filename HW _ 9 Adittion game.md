@@ -18,7 +18,7 @@ $ The action- after - each - iteration test whether the control variable has ter
 
 ```
 
-## Outline
+## Project Outline
 ```
 Main() 
 int hardness = 10;
@@ -34,10 +34,12 @@ int roundCount=4;
 
 ## References and Literature
 ```
-
+*  liang,Y. Daniel. *Introduction to JAVA Programming: 
+Comprehensive Version. * 10th edition : Pearson, 2014.print.
+reference pages : * P170--P174.
 ```
 
-## Code
+## Java Code
 ```
 import java.util.Scanner;
 public class HomeWork_9 {
@@ -100,4 +102,7 @@ Everything completed.
 
 ## Summary
 ```
+A for loop generally uses a variable to control how many times
+the loop body is executed and when the loop generally terminates. 
+This variable is referred to as a control variable.
 ```
