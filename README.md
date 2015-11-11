@@ -75,3 +75,31 @@ public class ComputAreaWithConso1eInput {
 	}
 
 ```
+## Result
+```
+Hello class.
+Inside the addition game method.
+Inside the for loop. Round: 1
+Inside get and check student answer method.
+Add 0 and 4.
+4
+Good work, your answer was correct.
+Your score was 0 and is now 5.
+Your hardness was 5 and is now 10.
+Inside the for loop. Round: 2
+Inside get and check student answer method.
+Add 2 and 6.
+8
+Good work, your answer was correct.
+Your score was 5 and is now 15.
+Your hardness was 10 and is now 20.
+Inside the for loop. Round: 3
+Inside get and check student answer method.
+Add 12 and 7.
+19
+Good work, your answer was correct.
+Your score was 15 and is now 35.
+The game is complete.
+Your final score was 35
+
+```
